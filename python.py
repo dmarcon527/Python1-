@@ -7,12 +7,11 @@ for i in range(len(vocales)):
     print(f"{vocales[i]}", end=",")
 else:
     print()
-#for i in len(vocales)-1:
-    print(f"Vocal: {c}")
+for i in range(len(vocales)):
     print(f"{vocales[i]}")
 for c in vocales:
     if c=='b':
         break
-    else: 
-        print("No se ha encontrado el caracter b")
-    print("vocal: {c}")
+else: 
+    print("No se ha encontrado el caracter b")
+   
